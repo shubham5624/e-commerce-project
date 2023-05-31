@@ -15,19 +15,30 @@ To run this project locally, you need to have Node.js and MongoDB installed on y
 
 Clone this repository or download the zip file.
 Navigate to the project directory and install the dependencies for both the server and the client.
+
 cd server
+
 npm install
+
 cd ../client
+
 npm install
-Copy
+
+
 Create a .env file in the server directory and add the following environment variables:
+
 PORT=5000 # the port for the server
+
 MONGO_URI= # the connection string for MongoDB Atlas
+
 JWT_SECRET= # the secret key for JWT
+
 STRIPE_SECRET_KEY= # the secret key for Stripe API
-Copy
+
+
 Start the server and the client concurrently.
 npm run dev
-Copy
+
 Open http://localhost:3000 to view the client in the browser.
+
 Received message. Sure, I can help you with that. Here is a possible readme for your e-commerce website project using MERN stack: # E-commerce Website This is a
